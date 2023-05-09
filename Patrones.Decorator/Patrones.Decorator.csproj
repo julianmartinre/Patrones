@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{799040E4-291F-4FBA-B784-5FA067A0EEEF}</ProjectGuid>
+    <ProjectGuid>{E1C2D4CE-3925-4F66-8112-0DFDB2E12414}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Patrones.Adapter</RootNamespace>
-    <AssemblyName>Patrones.Adapter</AssemblyName>
+    <RootNamespace>Patrones.Decorator</RootNamespace>
+    <AssemblyName>Patrones.Decorator</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,13 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Motor.cs" />
-    <Compile Include="MotorDiesel.cs" />
-    <Compile Include="MotorElectrico.cs" />
-    <Compile Include="MotorElectricoAdapter.cs" />
-    <Compile Include="MotorNaftero.cs" />
+    <Compile Include="AgregadoDecorator.cs" />
+    <Compile Include="Azucar.cs" />
+    <Compile Include="BebidaComponent.cs" />
+    <Compile Include="CafeDescafeinado.cs" />
+    <Compile Include="CafeExpresso.cs" />
+    <Compile Include="CafeSolo.cs" />
+    <Compile Include="Canela.cs" />
+    <Compile Include="Crema.cs" />
+    <Compile Include="Edulcorante.cs" />
+    <Compile Include="Leche.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TeTradicional.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

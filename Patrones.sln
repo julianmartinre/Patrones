@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32802.440
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.FactoryMethod", "Patrones.FactoryMethod\Patrones.FactoryMethod.csproj", "{09ED8AC8-74F3-4A5C-9B69-73DE3147D90D}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.Observer", "Patron.Observer\Patrones.Observer.csproj", "{4203C694-BFF8-441B-81DE-2251728B717A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.Adapter", "Patrones.Adapter\Patrones.Adapter.csproj", "{799040E4-291F-4FBA-B784-5FA067A0EEEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.Decorator", "Patrones.Decorator\Patrones.Decorator.csproj", "{E1C2D4CE-3925-4F66-8112-0DFDB2E12414}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{799040E4-291F-4FBA-B784-5FA067A0EEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{799040E4-291F-4FBA-B784-5FA067A0EEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{799040E4-291F-4FBA-B784-5FA067A0EEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1C2D4CE-3925-4F66-8112-0DFDB2E12414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C2D4CE-3925-4F66-8112-0DFDB2E12414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1C2D4CE-3925-4F66-8112-0DFDB2E12414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C2D4CE-3925-4F66-8112-0DFDB2E12414}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
