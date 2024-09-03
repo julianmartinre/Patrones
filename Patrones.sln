@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.Decorator", "Patro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.Memento", "Patrones.Memento\Patrones.Memento.csproj", "{140FDA90-0B70-42C3-93BD-4E0EC910CCB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.Prototype", "Patrones.Prototype\Patrones.Prototype.csproj", "{2992EDF3-1028-4232-8189-2144AAF5B4CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{140FDA90-0B70-42C3-93BD-4E0EC910CCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{140FDA90-0B70-42C3-93BD-4E0EC910CCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{140FDA90-0B70-42C3-93BD-4E0EC910CCB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2992EDF3-1028-4232-8189-2144AAF5B4CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2992EDF3-1028-4232-8189-2144AAF5B4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2992EDF3-1028-4232-8189-2144AAF5B4CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2992EDF3-1028-4232-8189-2144AAF5B4CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
