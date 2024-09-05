@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.Memento", "Patrone
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.Prototype", "Patrones.Prototype\Patrones.Prototype.csproj", "{2992EDF3-1028-4232-8189-2144AAF5B4CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.Builder", "Patrones.Builder\Patrones.Builder.csproj", "{A6A3E30F-9459-43DD-A70E-B8801D4A9316}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{2992EDF3-1028-4232-8189-2144AAF5B4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2992EDF3-1028-4232-8189-2144AAF5B4CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2992EDF3-1028-4232-8189-2144AAF5B4CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6A3E30F-9459-43DD-A70E-B8801D4A9316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A3E30F-9459-43DD-A70E-B8801D4A9316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A3E30F-9459-43DD-A70E-B8801D4A9316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A3E30F-9459-43DD-A70E-B8801D4A9316}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
