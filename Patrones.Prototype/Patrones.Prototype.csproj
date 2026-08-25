@@ -44,8 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutoPrototype.cs" />
+    <Compile Include="CatalogoPrototipos.cs" />
     <Compile Include="ChevroletPrototype.cs" />
     <Compile Include="FiatPrototype.cs" />
+    <Compile Include="Motor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
