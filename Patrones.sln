@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.Builder", "Patrone
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.Facade", "Patrones.Facade\Patrones.Facade.csproj", "{DA387FE7-9EC3-4D6B-A874-92B21F98BDE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.ChainOfResponsability", "Patrones.ChainOfResponsability\Patrones.ChainOfResponsability.csproj", "{048DA143-5AFF-48BF-9A33-0A981E44823D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.Command", "Patrones.Command\Patrones.Command.csproj", "{13A82F33-2FAA-473B-B152-3E9671EB6804}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{DA387FE7-9EC3-4D6B-A874-92B21F98BDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA387FE7-9EC3-4D6B-A874-92B21F98BDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA387FE7-9EC3-4D6B-A874-92B21F98BDE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{048DA143-5AFF-48BF-9A33-0A981E44823D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048DA143-5AFF-48BF-9A33-0A981E44823D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048DA143-5AFF-48BF-9A33-0A981E44823D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048DA143-5AFF-48BF-9A33-0A981E44823D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A82F33-2FAA-473B-B152-3E9671EB6804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A82F33-2FAA-473B-B152-3E9671EB6804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A82F33-2FAA-473B-B152-3E9671EB6804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A82F33-2FAA-473B-B152-3E9671EB6804}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
