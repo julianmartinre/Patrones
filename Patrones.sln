@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.State", "Patrones.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.Strategy", "Patrones.Strategy\Patrones.Strategy.csproj", "{67A7B23E-E020-4539-BA2D-2B42C7A673AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.Proxy", "Patrones.Proxy\Patrones.Proxy.csproj", "{2CF72640-2860-4D20-8449-A41F0D94189C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{67A7B23E-E020-4539-BA2D-2B42C7A673AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67A7B23E-E020-4539-BA2D-2B42C7A673AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67A7B23E-E020-4539-BA2D-2B42C7A673AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF72640-2860-4D20-8449-A41F0D94189C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF72640-2860-4D20-8449-A41F0D94189C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF72640-2860-4D20-8449-A41F0D94189C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF72640-2860-4D20-8449-A41F0D94189C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
